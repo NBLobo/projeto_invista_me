@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'l#mpgkhr83%1$8q+5wj)16860qsw8cozjtj#o5(-%=p304c!%v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['projeto-invista-me.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
